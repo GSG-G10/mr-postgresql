@@ -1,76 +1,72 @@
-body{
-    background-color: rgb(242, 231, 255);
-    font-family: 'Dancing Script', cursive;
+body {
+  background-color: rgb(242, 231, 255);
+  font-family: "Dancing Script", cursive;
 }
 
-
-.mainDiv{
-    /* display: flex; */
-    justify-content: space-around;
+.mainDiv {
+  /* display: flex; */
+  justify-content: space-around;
 }
-.mainHeader{
-    background-color: rgb(76, 61, 209);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 5rem;  
-    border-radius: 10px;
-    width: 100%;  
-}
-
-.noteImg{
-    border-radius: 10px;
-    max-height: 4.85rem;
-}
-.title{
-    /* font-family: 'Lobster', cursive; */
-    margin-right: 2%;
-    color: rgb(201, 220, 241);
-    text-shadow: 0 0 3px #ffffff;
-}
-.tasksForm{
-    justify-content: center;
-    margin-right: 10%;
-    /* padding-left: 10%; */
-    /* margin-top: 10%; */
-    /* margin-left: auto; */
+.mainHeader {
+  background-color: rgb(76, 61, 209);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  border-radius: 10px;
+  width: 100%;
 }
 
-.toDoTasks{
-    justify-content: center;
-    align-items: center;
-    /* background-color: brown; */
-    display: flex;
-   
-
+.noteImg {
+  border-radius: 10px;
+  max-height: 4.85rem;
+}
+.title {
+  /* font-family: 'Lobster', cursive; */
+  margin-right: 2%;
+  color: rgb(201, 220, 241);
+  text-shadow: 0 0 3px #ffffff;
+}
+.tasksForm {
+  justify-content: center;
+  margin-right: 10%;
+  /* padding-left: 10%; */
+  /* margin-top: 10%; */
+  /* margin-left: auto; */
 }
 
-#tasksToBeDone{
-    border-width:  1px ;
-    border-bottom-style: solid;
-    border-color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-
+.toDoTasks {
+  justify-content: center;
+  align-items: center;
+  /* background-color: brown; */
+  display: flex;
 }
 
-#done{
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+#tasksToBeDone {
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
 }
 
+#done {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
 
-
+p {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 300px) {
-    .noteImg{
-       display: none;
-    }
+  .noteImg {
+    display: none;
+  }
 
-    .title{
-     
-        /* text-align: center; */
-        /* margin-right: auto; */
-        margin-left: 25%;
-    }
+  .title {
+    /* text-align: center; */
+    /* margin-right: auto; */
+    margin-left: 25%;
+  }
 }
