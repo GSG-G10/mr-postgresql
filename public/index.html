@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-Do-postgresql</title>
+  </head>
+
+  <body>
+    <div class="mainDiv">
+      <header class="mainHeader">
+        <img
+          class="noteImg"
+          src="https://apkplz.net/storage/images/com/notes/stickynotes/com.notes.stickynotes_1.png"
+          alt="Note Image"
+        />
+        <h1 class="title">To Do List</h1>
+      </header>
+
+      <div class="toDoTasks">
+        <div class="tasksForm">
+          <form
+            id="add-todo"
+            class="wrapper__form"
+            action="/add-to-do"
+            method="POST"
+          >
+            <label for="todo-description" class="wrapper__form__label"
+              >Task description</label
+            >
+            <input
+              type="text"
+              name="description"
+              value=""
+              id="task-description"
+              class="wrapper__form__input"
+              required
+            />
+            <input
+              type="submit"
+              name=""
+              value="add"
+              class="wrapper__form__btn"
+              placeholder="task...."
+            />
+          </form>
+        </div>
+
+        <div id="tasks">
+          <div id="tasksToBeDone">
+            <h1>taaaaaaaaaaaaaaaaaaaaaaaaaaaskss</h1>
+          </div>
+          <div id="done">
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+            <h1>donnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
