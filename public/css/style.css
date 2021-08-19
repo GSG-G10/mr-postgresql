@@ -22,23 +22,20 @@ body {
   max-height: 4.85rem;
 }
 .title {
-  /* font-family: 'Lobster', cursive; */
+  
   margin-right: 2%;
-  color: rgb(201, 220, 241);
-  text-shadow: 0 0 3px #ffffff;
+  color: rgb(177, 191, 253);
+  text-shadow: 0 0 5px #f10404;
 }
 .tasksForm {
   justify-content: center;
   margin-right: 10%;
-  /* padding-left: 10%; */
-  /* margin-top: 10%; */
-  /* margin-left: auto; */
+  margin-top: 100px;
 }
 
 .toDoTasks {
   justify-content: center;
   align-items: center;
-  /* background-color: brown; */
   display: flex;
 }
 
@@ -57,6 +54,7 @@ body {
 
 p {
   cursor: pointer;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 300px) {
@@ -65,8 +63,7 @@ p {
   }
 
   .title {
-    /* text-align: center; */
-    /* margin-right: auto; */
+   
     margin-left: 25%;
   }
 }
